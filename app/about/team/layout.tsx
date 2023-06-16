@@ -9,7 +9,7 @@ const layout: React.FC<Props> = ({children}) => {
     <div>
       {children}
     </div>
-)
+    )
 }
 
 export default layout

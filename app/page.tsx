@@ -9,7 +9,7 @@ const Home = () => {
       <ul>
         <li><Link href='/'>Home</Link></li>
         <li><Link href='/about'>About</Link></li>
-        <li><Link href='/about/team'>Team</Link></li>
+        <li><Link href='/about/team'>Team 1</Link></li>
       </ul>
     </div>
   )
