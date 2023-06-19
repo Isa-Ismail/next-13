@@ -1,9 +1,9 @@
 import React from 'react'
 
-interface Props {}
+interface Props { }
 
 const page = () => {
-  return <div>dw</div>
+  return <div>awdawd</div>
 }
 
 export default page
