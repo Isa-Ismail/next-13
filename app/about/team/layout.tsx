@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: 'Create team App',
+  description: 'team',
+}
+
 interface Props {
     children: React.ReactElement
 }
