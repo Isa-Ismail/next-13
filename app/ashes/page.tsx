@@ -7,12 +7,13 @@ interface Props {
 
 //fetch data from api
 
-const page:React.FC<Props> = () => {
+export default async function () {
+    const res = await fetch('https://jsonplaceholder.typicode.com/todos/12')
+    const data = await res.json()
+    console.log(data)
     return (
         <div>
             ashedComponent
         </div>
     )
 }
-
-export default page
